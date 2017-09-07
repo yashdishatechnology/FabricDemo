@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		502F176F1F5FF0F900A1B894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F176E1F5FF0F900A1B894 /* AppDelegate.swift */; };
+		502F17711F5FF0F900A1B894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F17701F5FF0F900A1B894 /* ViewController.swift */; };
+		502F17741F5FF0F900A1B894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502F17721F5FF0F900A1B894 /* Main.storyboard */; };
+		502F17761F5FF0F900A1B894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502F17751F5FF0F900A1B894 /* Assets.xcassets */; };
+		502F17791F5FF0F900A1B894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502F17771F5FF0F900A1B894 /* LaunchScreen.storyboard */; };
+		502F17841F5FF0F900A1B894 /* fabricDemooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F17831F5FF0F900A1B894 /* fabricDemooTests.swift */; };
+		502F178F1F5FF0F900A1B894 /* fabricDemooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502F178E1F5FF0F900A1B894 /* fabricDemooUITests.swift */; };
+		502F179F1F5FF14500A1B894 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502F179D1F5FF14500A1B894 /* Fabric.framework */; };
+		502F17A01F5FF14500A1B894 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502F179E1F5FF14500A1B894 /* Crashlytics.framework */; };
+		502F17A61F5FFA6800A1B894 /* Appsee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502F17A51F5FFA6800A1B894 /* Appsee.framework */; };
+		502F17AB1F5FFF8300A1B894 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502F17A71F5FFF8300A1B894 /* AudioToolbox.framework */; };
+		502F17AC1F5FFF8300A1B894 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502F17A81F5FFF8300A1B894 /* SystemConfiguration.framework */; };
+		502F17AD1F5FFF8300A1B894 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502F17A91F5FFF8300A1B894 /* MobileCoreServices.framework */; };
+		502F17AE1F5FFF8300A1B894 /* Optimizely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502F17AA1F5FFF8300A1B894 /* Optimizely.framework */; };
+		858C50436D7D1639029C6951 /* Pods_fabricDemoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F35B791E3872CF4A7D01FC /* Pods_fabricDemoo.framework */; };
+		8FAE6F8CB32E1926A67338E1 /* Pods_fabricDemooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE82E0ACB769F9154E0118F /* Pods_fabricDemooUITests.framework */; };
+		DE3D3C9C80D887CA17CD2E72 /* Pods_fabricDemooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9491143C39B6A5272B0EFE10 /* Pods_fabricDemooTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		502F17801F5FF0F900A1B894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 502F17631F5FF0F800A1B894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 502F176A1F5FF0F900A1B894;
+			remoteInfo = fabricDemoo;
+		};
+		502F178B1F5FF0F900A1B894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 502F17631F5FF0F800A1B894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 502F176A1F5FF0F900A1B894;
+			remoteInfo = fabricDemoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ACC2858916A0F2495C24BC0 /* Pods-fabricDemooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fabricDemooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fabricDemooUITests/Pods-fabricDemooUITests.release.xcconfig"; sourceTree = "<group>"; };
+		502F176B1F5FF0F900A1B894 /* fabricDemoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fabricDemoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		502F176E1F5FF0F900A1B894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		502F17701F5FF0F900A1B894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		502F17731F5FF0F900A1B894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		502F17751F5FF0F900A1B894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		502F17781F5FF0F900A1B894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		502F177A1F5FF0F900A1B894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502F177F1F5FF0F900A1B894 /* fabricDemooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fabricDemooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		502F17831F5FF0F900A1B894 /* fabricDemooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabricDemooTests.swift; sourceTree = "<group>"; };
+		502F17851F5FF0F900A1B894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502F178A1F5FF0F900A1B894 /* fabricDemooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fabricDemooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		502F178E1F5FF0F900A1B894 /* fabricDemooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fabricDemooUITests.swift; sourceTree = "<group>"; };
+		502F17901F5FF0F900A1B894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502F179D1F5FF14500A1B894 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		502F179E1F5FF14500A1B894 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		502F17A51F5FFA6800A1B894 /* Appsee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appsee.framework; sourceTree = SOURCE_ROOT; };
+		502F17A71F5FFF8300A1B894 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		502F17A81F5FFF8300A1B894 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		502F17A91F5FFF8300A1B894 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		502F17AA1F5FFF8300A1B894 /* Optimizely.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Optimizely.framework; sourceTree = SOURCE_ROOT; };
+		7C75B1E5E50CD66700B198AD /* Pods-fabricDemoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fabricDemoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fabricDemoo/Pods-fabricDemoo.debug.xcconfig"; sourceTree = "<group>"; };
+		89953D8E344131095E3E3BE9 /* Pods-fabricDemooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fabricDemooTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fabricDemooTests/Pods-fabricDemooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9491143C39B6A5272B0EFE10 /* Pods_fabricDemooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fabricDemooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE82E0ACB769F9154E0118F /* Pods_fabricDemooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fabricDemooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0302497958272BB32ECFDC /* Pods-fabricDemooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fabricDemooTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fabricDemooTests/Pods-fabricDemooTests.release.xcconfig"; sourceTree = "<group>"; };
+		D89E0646255AF4C656164FF4 /* Pods-fabricDemoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fabricDemoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-fabricDemoo/Pods-fabricDemoo.release.xcconfig"; sourceTree = "<group>"; };
+		F2F35B791E3872CF4A7D01FC /* Pods_fabricDemoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fabricDemoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84178E8304EE6099BBA32FE /* Pods-fabricDemooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fabricDemooUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fabricDemooUITests/Pods-fabricDemooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		502F17681F5FF0F900A1B894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502F17A61F5FFA6800A1B894 /* Appsee.framework in Frameworks */,
+				502F17AC1F5FFF8300A1B894 /* SystemConfiguration.framework in Frameworks */,
+				502F17A01F5FF14500A1B894 /* Crashlytics.framework in Frameworks */,
+				502F17AD1F5FFF8300A1B894 /* MobileCoreServices.framework in Frameworks */,
+				502F179F1F5FF14500A1B894 /* Fabric.framework in Frameworks */,
+				502F17AE1F5FFF8300A1B894 /* Optimizely.framework in Frameworks */,
+				502F17AB1F5FFF8300A1B894 /* AudioToolbox.framework in Frameworks */,
+				858C50436D7D1639029C6951 /* Pods_fabricDemoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502F177C1F5FF0F900A1B894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3D3C9C80D887CA17CD2E72 /* Pods_fabricDemooTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502F17871F5FF0F900A1B894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAE6F8CB32E1926A67338E1 /* Pods_fabricDemooUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		502F17621F5FF0F800A1B894 = {
+			isa = PBXGroup;
+			children = (
+				502F176D1F5FF0F900A1B894 /* fabricDemoo */,
+				502F17821F5FF0F900A1B894 /* fabricDemooTests */,
+				502F178D1F5FF0F900A1B894 /* fabricDemooUITests */,
+				502F176C1F5FF0F900A1B894 /* Products */,
+				E883E4EF9E136693006CF47C /* Pods */,
+				D708EE299FDAFA811151D1CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		502F176C1F5FF0F900A1B894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				502F176B1F5FF0F900A1B894 /* fabricDemoo.app */,
+				502F177F1F5FF0F900A1B894 /* fabricDemooTests.xctest */,
+				502F178A1F5FF0F900A1B894 /* fabricDemooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		502F176D1F5FF0F900A1B894 /* fabricDemoo */ = {
+			isa = PBXGroup;
+			children = (
+				502F176E1F5FF0F900A1B894 /* AppDelegate.swift */,
+				502F17701F5FF0F900A1B894 /* ViewController.swift */,
+				502F17A71F5FFF8300A1B894 /* AudioToolbox.framework */,
+				502F17A81F5FFF8300A1B894 /* SystemConfiguration.framework */,
+				502F17A91F5FFF8300A1B894 /* MobileCoreServices.framework */,
+				502F17AA1F5FFF8300A1B894 /* Optimizely.framework */,
+				502F17A51F5FFA6800A1B894 /* Appsee.framework */,
+				502F179D1F5FF14500A1B894 /* Fabric.framework */,
+				502F179E1F5FF14500A1B894 /* Crashlytics.framework */,
+				502F17721F5FF0F900A1B894 /* Main.storyboard */,
+				502F17751F5FF0F900A1B894 /* Assets.xcassets */,
+				502F17771F5FF0F900A1B894 /* LaunchScreen.storyboard */,
+				502F177A1F5FF0F900A1B894 /* Info.plist */,
+			);
+			path = fabricDemoo;
+			sourceTree = "<group>";
+		};
+		502F17821F5FF0F900A1B894 /* fabricDemooTests */ = {
+			isa = PBXGroup;
+			children = (
+				502F17831F5FF0F900A1B894 /* fabricDemooTests.swift */,
+				502F17851F5FF0F900A1B894 /* Info.plist */,
+			);
+			path = fabricDemooTests;
+			sourceTree = "<group>";
+		};
+		502F178D1F5FF0F900A1B894 /* fabricDemooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				502F178E1F5FF0F900A1B894 /* fabricDemooUITests.swift */,
+				502F17901F5FF0F900A1B894 /* Info.plist */,
+			);
+			path = fabricDemooUITests;
+			sourceTree = "<group>";
+		};
+		D708EE299FDAFA811151D1CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2F35B791E3872CF4A7D01FC /* Pods_fabricDemoo.framework */,
+				9491143C39B6A5272B0EFE10 /* Pods_fabricDemooTests.framework */,
+				9FE82E0ACB769F9154E0118F /* Pods_fabricDemooUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E883E4EF9E136693006CF47C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C75B1E5E50CD66700B198AD /* Pods-fabricDemoo.debug.xcconfig */,
+				D89E0646255AF4C656164FF4 /* Pods-fabricDemoo.release.xcconfig */,
+				89953D8E344131095E3E3BE9 /* Pods-fabricDemooTests.debug.xcconfig */,
+				AE0302497958272BB32ECFDC /* Pods-fabricDemooTests.release.xcconfig */,
+				F84178E8304EE6099BBA32FE /* Pods-fabricDemooUITests.debug.xcconfig */,
+				2ACC2858916A0F2495C24BC0 /* Pods-fabricDemooUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		502F176A1F5FF0F900A1B894 /* fabricDemoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502F17931F5FF0F900A1B894 /* Build configuration list for PBXNativeTarget "fabricDemoo" */;
+			buildPhases = (
+				2D84C13B6DF1B9E921B5FF64 /* [CP] Check Pods Manifest.lock */,
+				502F17671F5FF0F900A1B894 /* Sources */,
+				502F17681F5FF0F900A1B894 /* Frameworks */,
+				502F17691F5FF0F900A1B894 /* Resources */,
+				502F179C1F5FF12800A1B894 /* ShellScript */,
+				ADE9F23F88F8232227B2EFBC /* [CP] Embed Pods Frameworks */,
+				3B49D98649C7834E433CC336 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fabricDemoo;
+			productName = fabricDemoo;
+			productReference = 502F176B1F5FF0F900A1B894 /* fabricDemoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		502F177E1F5FF0F900A1B894 /* fabricDemooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502F17961F5FF0F900A1B894 /* Build configuration list for PBXNativeTarget "fabricDemooTests" */;
+			buildPhases = (
+				66B3DFEC1FB66BBB991BF5BB /* [CP] Check Pods Manifest.lock */,
+				502F177B1F5FF0F900A1B894 /* Sources */,
+				502F177C1F5FF0F900A1B894 /* Frameworks */,
+				502F177D1F5FF0F900A1B894 /* Resources */,
+				D792644E7D7971CC45099314 /* [CP] Embed Pods Frameworks */,
+				93C2E436025E7FC322D117DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				502F17811F5FF0F900A1B894 /* PBXTargetDependency */,
+			);
+			name = fabricDemooTests;
+			productName = fabricDemooTests;
+			productReference = 502F177F1F5FF0F900A1B894 /* fabricDemooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		502F17891F5FF0F900A1B894 /* fabricDemooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502F17991F5FF0F900A1B894 /* Build configuration list for PBXNativeTarget "fabricDemooUITests" */;
+			buildPhases = (
+				5960AFDE7EE70B8275F1C52D /* [CP] Check Pods Manifest.lock */,
+				502F17861F5FF0F900A1B894 /* Sources */,
+				502F17871F5FF0F900A1B894 /* Frameworks */,
+				502F17881F5FF0F900A1B894 /* Resources */,
+				2C72AE147D2CAA18318CF738 /* [CP] Embed Pods Frameworks */,
+				D19A6AAB7FD740112F52C6D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				502F178C1F5FF0F900A1B894 /* PBXTargetDependency */,
+			);
+			name = fabricDemooUITests;
+			productName = fabricDemooUITests;
+			productReference = 502F178A1F5FF0F900A1B894 /* fabricDemooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		502F17631F5FF0F800A1B894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Disha Technology";
+				TargetAttributes = {
+					502F176A1F5FF0F900A1B894 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5CJ48558QC;
+						ProvisioningStyle = Automatic;
+					};
+					502F177E1F5FF0F900A1B894 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5CJ48558QC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 502F176A1F5FF0F900A1B894;
+					};
+					502F17891F5FF0F900A1B894 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5CJ48558QC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 502F176A1F5FF0F900A1B894;
+					};
+				};
+			};
+			buildConfigurationList = 502F17661F5FF0F800A1B894 /* Build configuration list for PBXProject "fabricDemoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 502F17621F5FF0F800A1B894;
+			productRefGroup = 502F176C1F5FF0F900A1B894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				502F176A1F5FF0F900A1B894 /* fabricDemoo */,
+				502F177E1F5FF0F900A1B894 /* fabricDemooTests */,
+				502F17891F5FF0F900A1B894 /* fabricDemooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		502F17691F5FF0F900A1B894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502F17791F5FF0F900A1B894 /* LaunchScreen.storyboard in Resources */,
+				502F17761F5FF0F900A1B894 /* Assets.xcassets in Resources */,
+				502F17741F5FF0F900A1B894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502F177D1F5FF0F900A1B894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502F17881F5FF0F900A1B894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C72AE147D2CAA18318CF738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fabricDemooUITests/Pods-fabricDemooUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D84C13B6DF1B9E921B5FF64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B49D98649C7834E433CC336 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fabricDemoo/Pods-fabricDemoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502F179C1F5FF12800A1B894 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3c81e7b0310ef3267251aed0fb1ba1346063975a 47e4d8c8f877fb17ab630c11212d61e17d97014e7d86cfa372afc22eab649bf0";
+		};
+		5960AFDE7EE70B8275F1C52D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66B3DFEC1FB66BBB991BF5BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93C2E436025E7FC322D117DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fabricDemooTests/Pods-fabricDemooTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE9F23F88F8232227B2EFBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fabricDemoo/Pods-fabricDemoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D19A6AAB7FD740112F52C6D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fabricDemooUITests/Pods-fabricDemooUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D792644E7D7971CC45099314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fabricDemooTests/Pods-fabricDemooTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		502F17671F5FF0F900A1B894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502F17711F5FF0F900A1B894 /* ViewController.swift in Sources */,
+				502F176F1F5FF0F900A1B894 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502F177B1F5FF0F900A1B894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502F17841F5FF0F900A1B894 /* fabricDemooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502F17861F5FF0F900A1B894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502F178F1F5FF0F900A1B894 /* fabricDemooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		502F17811F5FF0F900A1B894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 502F176A1F5FF0F900A1B894 /* fabricDemoo */;
+			targetProxy = 502F17801F5FF0F900A1B894 /* PBXContainerItemProxy */;
+		};
+		502F178C1F5FF0F900A1B894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 502F176A1F5FF0F900A1B894 /* fabricDemoo */;
+			targetProxy = 502F178B1F5FF0F900A1B894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		502F17721F5FF0F900A1B894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502F17731F5FF0F900A1B894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		502F17771F5FF0F900A1B894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502F17781F5FF0F900A1B894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		502F17911F5FF0F900A1B894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		502F17921F5FF0F900A1B894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		502F17941F5FF0F900A1B894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C75B1E5E50CD66700B198AD /* Pods-fabricDemoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5CJ48558QC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = fabricDemoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DT.fabricDemoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		502F17951F5FF0F900A1B894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89E0646255AF4C656164FF4 /* Pods-fabricDemoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5CJ48558QC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = fabricDemoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DT.fabricDemoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		502F17971F5FF0F900A1B894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89953D8E344131095E3E3BE9 /* Pods-fabricDemooTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5CJ48558QC;
+				INFOPLIST_FILE = fabricDemooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DT.fabricDemooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fabricDemoo.app/fabricDemoo";
+			};
+			name = Debug;
+		};
+		502F17981F5FF0F900A1B894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0302497958272BB32ECFDC /* Pods-fabricDemooTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5CJ48558QC;
+				INFOPLIST_FILE = fabricDemooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DT.fabricDemooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fabricDemoo.app/fabricDemoo";
+			};
+			name = Release;
+		};
+		502F179A1F5FF0F900A1B894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84178E8304EE6099BBA32FE /* Pods-fabricDemooUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5CJ48558QC;
+				INFOPLIST_FILE = fabricDemooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DT.fabricDemooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fabricDemoo;
+			};
+			name = Debug;
+		};
+		502F179B1F5FF0F900A1B894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACC2858916A0F2495C24BC0 /* Pods-fabricDemooUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5CJ48558QC;
+				INFOPLIST_FILE = fabricDemooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DT.fabricDemooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fabricDemoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		502F17661F5FF0F800A1B894 /* Build configuration list for PBXProject "fabricDemoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502F17911F5FF0F900A1B894 /* Debug */,
+				502F17921F5FF0F900A1B894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502F17931F5FF0F900A1B894 /* Build configuration list for PBXNativeTarget "fabricDemoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502F17941F5FF0F900A1B894 /* Debug */,
+				502F17951F5FF0F900A1B894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502F17961F5FF0F900A1B894 /* Build configuration list for PBXNativeTarget "fabricDemooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502F17971F5FF0F900A1B894 /* Debug */,
+				502F17981F5FF0F900A1B894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502F17991F5FF0F900A1B894 /* Build configuration list for PBXNativeTarget "fabricDemooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502F179A1F5FF0F900A1B894 /* Debug */,
+				502F179B1F5FF0F900A1B894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 502F17631F5FF0F800A1B894 /* Project object */;
+}

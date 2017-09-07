@@ -1,0 +1,33 @@
+PODS:
+  - Branch (0.17.10):
+    - Branch/Core (= 0.17.10)
+  - Branch/Core (0.17.10)
+  - Fabric (1.6.13)
+  - Mapbox-iOS-SDK (3.6.2)
+  - PubNub/Core (4.7.0)
+  - PubNub/Fabric (4.7.0):
+    - PubNub/Core
+  - ZendeskSDK (1.10.1.1):
+    - ZendeskSDK/Providers (= 1.10.1.1)
+    - ZendeskSDK/UI (= 1.10.1.1)
+  - ZendeskSDK/Providers (1.10.1.1)
+  - ZendeskSDK/UI (1.10.1.1):
+    - ZendeskSDK/Providers
+
+DEPENDENCIES:
+  - Branch
+  - Fabric
+  - Mapbox-iOS-SDK
+  - PubNub/Fabric
+  - ZendeskSDK
+
+SPEC CHECKSUMS:
+  Branch: 29745957de17eb5973627f4c7720bd0eb390fd45
+  Fabric: 2fb5676bc811af011a04513451f463dac6803206
+  Mapbox-iOS-SDK: 1224c5ba79dc9bf9a80bfcc33ae320f5d672a42f
+  PubNub: 366d711a1f188a349b8c745cf3c2860111748b9f
+  ZendeskSDK: b142d13ef9d13082f2c75990057b57d33497457b
+
+PODFILE CHECKSUM: 69e470380a6eab3d35264ce41fcaa90bdcbec379
+
+COCOAPODS: 1.2.0

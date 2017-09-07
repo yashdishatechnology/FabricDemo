@@ -1,0 +1,6 @@
+framework module Pods_fabricDemoo {
+  umbrella header "Pods-fabricDemoo-umbrella.h"
+
+  export *
+  module * { export * }
+}
